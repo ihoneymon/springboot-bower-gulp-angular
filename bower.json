@@ -1,8 +1,9 @@
 {
   "name": "springboot-bower-gulp-angular",
   "dependencies": {
-    "angular": "~1.5.5",
+    "angular": "angularjs#^1.5.5",
     "angular-resource": "~1.5.5",
-    "bootstrap-css-only": "~3.3.6"
+    "bootstrap-css-only": "~3.3.6",
+    "bootstrap": "^3.3.6"
   }
 }
