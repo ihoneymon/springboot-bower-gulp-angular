@@ -1,0 +1,27 @@
+{
+  "name": "springboot-bower-gulp-angular",
+  "version": "0.0.1",
+  "description": "프론트엔드 기술 습득'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ihoneymon/springboot-bower-gulp-angular.git"
+  },
+  "keywords": [
+    "honeymon",
+    "frontend",
+    "springboot",
+    "bower",
+    "gulp",
+    "angular"
+  ],
+  "author": "honeymon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ihoneymon/springboot-bower-gulp-angular/issues"
+  },
+  "homepage": "https://github.com/ihoneymon/springboot-bower-gulp-angular#readme"
+}
