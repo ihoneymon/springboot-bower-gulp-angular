@@ -34,3 +34,11 @@ myModule.service('ItemService', function () {
     return items;
   };
 });
+
+myModule.directive('item', function () {
+  return {
+    scope: true,
+    replace: true,
+    template: '<div><h4>{{item.title}}</h4><p>{{item.description}}</p></div>'
+  }
+});
