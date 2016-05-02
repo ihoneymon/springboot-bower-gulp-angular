@@ -8,16 +8,16 @@
 </head>
 
 <body ng-app="LearnAngular">
-  <div class="container" ng-controller="IndexCtrl as index">
+  <div class="container" ng-controller="ItemCtrl as index">
     <h1>SpringBoot - Bower - Gulp - AngularJS</h1>
     <div class="col-md-6">
       <h2>Use</h2>
-      <div class="callout" ng-repeat="story in index.useThings" ng-click="main.setCurrentStory(story)">
-        <h4>{{story.title}}</h4>
-        <p>{{story.description}}</p>
+      <div class="callout" ng-repeat="item in index.getItems" ng-click="main.setCurrentItem(item)">
+        <h4>{{item.title}}</h4>
+        <p>{{item.description}}</p>
       </div>
       <div>
-      	<a class="btn btn-primary" ng-click="index.createThings()"><span class="glyphicon glyphicon-plus"></span></a>
+        <a class="btn btn-primary" ng-click="index.createItem()"><span class="glyphicon glyphicon-plus"></span></a>
       </div>
     </div>
   </div>
